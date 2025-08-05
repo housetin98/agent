@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HONG - Real Estate Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="website-container">
+        <header class="main-header">
+            <div class="logo">
+               
+                <span>LUMA ESTATE</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li class="nav-item active"><a href="#">Buy</a></li>
+                    <li class="nav-item"><a href="#">Rent</a></li>
+                    <li class="nav-item"><a href="#">Sell</a></li>
+                    <li class="nav-item"><a href="#">Agents</a></li>
+                    <li class="nav-item"><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="view-details-btn">View Listings</button>
+        </header>
+
+        <main class="website-content">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <img src="lotus-design-n-print-Bvy5ciR15oU-unsplash.jpg" alt="Modern apartment building">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1>Find Your Dream Property</h1>
+                    <div class="search-property-bar">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Location">
+                        <span class="separator"></span>
+                        <input type="text" placeholder="Price Range">
+                        <span class="separator"></span>
+                        <input type="text" placeholder="Property Type">
+                        <span class="separator"></span>
+                        <input type="text" placeholder="Bathrooms">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- New Properties Section -->
+            <section class="new-properties-section">
+                <h2>New Properties</h2>
+                <div class="properties-grid-main">
+                    <div class="featured-listing-card">
+                        <img src="arturo-rivera-jzr1pVXWGC8-unsplash.jpg" alt="Woman looking out window">
+                        <div class="card-content">
+                            <h3>Featured Listings</h3>
+                            <p>Explore premium homes in sought-after neighborhoods.</p>
+                            <p class="description-long">Experience exceptional living spaces designed with style and comfort in mind. From modern condos to spacious family homes, find your perfect match.</p>
+                            <button class="view-details-btn">View Details</button>
+                        </div>
+                    </div>
+
+                    <div class="property-card-small">
+                        <img src="spacejoy-RUvW1KGD9a4-unsplash.jpg" alt="Bedroom interior">
+                        <div class="card-content">
+                            <h3>2 Bedroom Apartment</h3>
+                            <div class="property-meta">
+                                <span><i class="fas fa-bed"></i> 2 Beds</span>
+                                <span><i class="fas fa-bath"></i> 2 Baths</span>
+                                <span><i class="fas fa-ruler-combined"></i> 1,200 sqft</span>
+                            </div>
+                            <p>Modern design with large windows and open floor plan in a serene location.</p>
+                            <button class="view-details-btn">View Details</button>
+                        </div>
+                    </div>
+
+                    <div class="property-card-small">
+                        <img src="prydumano-design-vIbxvHj9m9g-unsplash.jpg" alt="Living room interior">
+                        <div class="card-content">
+                            <h3>Luxury Condo</h3>
+                            <div class="property-meta">
+                                <span><i class="fas fa-bed"></i> 3 Beds</span>
+                                <span><i class="fas fa-bath"></i> 3 Baths</span>
+                                <span><i class="fas fa-ruler-combined"></i> 1,800 sqft</span>
+                            </div>
+                            <p>Located in the heart of the city with modern finishes and skyline views.</p>
+                            <button class="view-details-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </section>
+
+            <!-- Property Overview Section -->
+            <section class="property-overview-section">
+                <div class="overview-left">
+                    <h2>Property Spotlight</h2>
+                    <div class="overview-main-card">
+                        <img src="el-mehdi-rezkellah-jjuLfRB1awM-unsplash.jpg" alt="Woman holding house keys">
+                        <div class="card-content">
+                            <p>Unlock the door to your future with this beautifully renovated home featuring top-tier amenities and prime location.</p>
+                            <button class="contact-agent-btn">Contact Agent</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overview-right">
+                    <div class="overview-grid">
+                        <div class="overview-item-card">
+                            <img src="nine-koepfer-i00YBKmTjjE-unsplash.jpg" alt="Bedroom view">
+                            <div class="item-details">
+                                <h3>Modern Bedroom Suite</h3>
+                                <p>Spacious bedroom with elegant lighting and built-in closets.</p>
+                                <button class="view-details-btn">View Details</button>
+                            </div>
+                        </div>
+
+                        <div class="overview-item-card">
+                            <img src="le-quan-H2NpsZJe2IA-unsplash (1).jpg" alt="Modern bed">
+                            <div class="item-details">
+                                <h3>Room Options</h3>
+                                <div class="radio-group">
+                                    <label><input type="radio" name="room1" value="King"> King Bed</label>
+                                    <label><input type="radio" name="room1" value="Queen"> Queen Bed</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="overview-item-card">
+                            <img src="pau-patterson-photography-iWdt65VX3Xo-unsplash.jpg" alt="Agent profile">
+                            <div class="item-details">
+                                <h3>John Doe</h3>
+                                <p>Senior agent with over 10 years of experience in urban listings.</p>
+                            </div>
+                        </div>
+
+                        <div class="overview-item-card">
+                            <img src="alison-erickson-2z-KFU7SyxY-unsplash.jpg" alt="Agent smiling">
+                            <div class="item-details">
+                                <h3>Sarah Kim</h3>
+                                <p>Specialist in family homes and luxury apartments.</p>
+                            </div>
+                        </div>
+
+                        <div class="overview-item-card">
+                            <img src="todd-kent-178j8tJrNlc-unsplash (1).jpg" alt="House exterior">
+                            <div class="item-details">
+                                <h3>Neighborhood View</h3>
+                                <div class="radio-group">
+                                    <label><input type="radio" name="neighborhood" value="Quiet"> Quiet</label>
+                                    <label><input type="radio" name="neighborhood" value="Lively"> Lively</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="overview-item-card">
+                            <img src="webaliser-_TPTXZd9mOo-unsplash.jpg" alt="House interior">
+                            <div class="item-details">
+                                <h3>Interior Style</h3>
+                                <div class="radio-group">
+                                    <label><input type="radio" name="interior" value="Modern"> Modern</label>
+                                    <label><input type="radio" name="interior" value="Classic"> Classic</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+    /* Custom Properties for theming */
+:root {
+    --primary-bg: #f8fafd; /* Light background for the overall page */
+    --card-bg: #ffffff;    /* White background for cards and header */
+    --text-dark: #333d54;  /* Dark text for headings and main content */
+    --text-muted: #888ea4; /* Muted text for descriptions and secondary info */
+    --accent-blue: #3498db; /* Primary accent color for buttons, active states */
+    --shadow-light: rgba(0, 0, 0, 0.05); /* Subtle shadow for cards */
+    --shadow-medium: rgba(0, 0, 0, 0.1); /* Stronger shadow on hover */
+    --border-light: #e0e2e7; /* Light border color */
+    --dark-overlay: rgba(0, 0, 0, 0.6); /* Dark overlay for hero */
+}
+
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: var(--primary-bg);
+    color: var(--text-dark);
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.website-container {
+    background-color: var(--card-bg);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px var(--shadow-medium);
+    width: 100%;
+    max-width: 1300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Header */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--border-light);
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--text-dark);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo img {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: var(--accent-blue); /* Logo background color */
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.main-nav .nav-item a {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.main-nav .nav-item a:hover {
+    color: var(--text-dark);
+}
+
+.main-nav .nav-item.active a {
+    color: var(--text-dark);
+    font-weight: bold;
+}
+
+.main-nav .nav-item.active a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 3px;
+    background-color: var(--accent-blue);
+    border-radius: 2px;
+}
+
+.view-details-btn {
+    background-color: var(--accent-blue);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.view-details-btn:hover {
+    background-color: #2a7ac2;
+    transform: translateY(-2px);
+}
+
+/* Website Content Area */
+.website-content {
+    background-color: var(--primary-bg);
+    display: flex;
+    flex-direction: column;
+    gap: 50px; /* Spacing between main sections */
+    padding-bottom: 50px; /* Padding before footer */
+}
+
+h1, h2, h3 {
+    color: var(--text-dark);
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h1 { font-size: 48px; line-height: 1.2; }
+h2 { font-size: 28px; text-align: center; }
+h3 { font-size: 18px; }
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 450px; /* Fixed height for hero */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555; /* Fallback background */
+}
+
+.hero-section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.7); /* Darken image */
+    animation: fadeIn 1s ease-out;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-overlay); /* Dark overlay */
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    max-width: 900px;
+    padding: 0 30px;
+    animation: slideInUp 0.8s ease-out;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.search-property-bar {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    flex-wrap: wrap; /* Allow wrapping inputs */
+    justify-content: center;
+}
+
+.search-property-bar i {
+    color: var(--text-muted);
+    font-size: 20px;
+}
+
+.search-property-bar input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: var(--text-dark);
+    padding: 8px 0;
+    flex: 1; /* Allow inputs to grow */
+    min-width: 120px; /* Minimum width for inputs */
+}
+
+.search-property-bar .separator {
+    width: 1px;
+    height: 30px;
+    background-color: var(--border-light);
+}
+
+.search-property-bar .search-btn {
+    background-color: var(--accent-blue);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-property-bar .search-btn:hover {
+    background-color: #2a7ac2;
+    transform: translateY(-2px);
+}
+
+/* New Properties Section */
+.new-properties-section {
+    padding: 0 30px;
+}
+
+.properties-grid-main {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr; /* Featured, then two smaller */
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.featured-listing-card {
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px var(--shadow-light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-listing-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px var(--shadow-medium);
+}
+
+.featured-listing-card img {
+    width: 100%;
+    height: 250px; /* Fixed height for featured image */
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.featured-listing-card:hover img {
+    transform: scale(1.03);
+}
+
+.featured-listing-card .card-content {
+    padding: 25px;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.featured-listing-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.featured-listing-card p {
+    font-size: 15px;
+    color: var(--text-muted);
+    margin-bottom: 15px;
+}
+
+.featured-listing-card .description-long {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+.property-card-small {
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px var(--shadow-light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.property-card-small:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px var(--shadow-medium);
+}
+
+.property-card-small img {
+    width: 100%;
+    height: 180px; /* Fixed height for small property images */
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.property-card-small:hover img {
+    transform: scale(1.03);
+}
+
+.property-card-small .card-content {
+    padding: 20px;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.property-card-small h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.property-meta {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+}
+
+.property-meta i {
+    color: var(--accent-blue);
+    margin-right: 5px;
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--border-light);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dot.active {
+    background-color: var(--accent-blue);
+    transform: scale(1.2);
+}
+
+/* Property Overview Section */
+.property-overview-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Left column smaller than right */
+    gap: 40px;
+    padding: 0 30px;
+}
+
+.overview-left {
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 15px var(--shadow-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.overview-left h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.overview-main-card {
+    width: 100%;
+    background-color: var(--primary-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px var(--shadow-light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.overview-main-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px var(--shadow-medium);
+}
+
+.overview-main-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.overview-main-card .card-content {
+    padding: 20px;
+}
+
+.overview-main-card p {
+    font-size: 15px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+.contact-agent-btn {
+    background-color: var(--accent-blue);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-agent-btn:hover {
+    background-color: #2a7ac2;
+    transform: translateY(-2px);
+}
+
+.overview-right {
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 15px var(--shadow-light);
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.overview-item-card {
+    background-color: var(--primary-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px var(--shadow-light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.overview-item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px var(--shadow-medium);
+}
+
+.overview-item-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+}
+
+.overview-item-card .item-details {
+    padding: 15px;
+    text-align: center;
+}
+
+.overview-item-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.overview-item-card p {
+    font-size: 14px;
+    color: var(--text-muted);
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.radio-group label {
+    font-size: 14px;
+    color: var(--text-dark);
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+    accent-color: var(--accent-blue); /* Style radio buttons */
+}
+
+
+
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .main-header {
+        padding: 15px 20px;
+    }
+    .main-nav ul {
+        gap: 20px;
+    }
+    .website-content {
+        gap: 40px;
+    }
+    .hero-content h1 {
+        font-size: 50px;
+    }
+    .search-property-bar {
+        padding: 12px 20px;
+        gap: 10px;
+    }
+    .search-property-bar input {
+        min-width: 100px;
+    }
+    .properties-grid-main {
+        grid-template-columns: 1fr; /* Stack main properties grid */
+        padding: 0 20px;
+    }
+    .featured-listing-card img {
+        height: 200px;
+    }
+    .property-card-small img {
+        height: 150px;
+    }
+    .property-overview-section {
+        grid-template-columns: 1fr; /* Stack overview sections */
+        padding: 0 20px;
+        gap: 30px;
+    }
+    .overview-left, .overview-right {
+        padding: 25px;
+    }
+    .overview-main-card img {
+        height: 200px;
+    }
+    .overview-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+    .overview-item-card img {
+        height: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .main-nav {
+        order: 3;
+        width: 100%;
+        margin-top: 10px;
+        border-top: 1px solid var(--border-light);
+        padding-top: 10px;
+    }
+    .main-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .view-details-btn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    .hero-section {
+        height: 350px;
+    }
+    .hero-content h1 {
+        font-size: 40px;
+    }
+    .search-property-bar {
+        padding: 10px 15px;
+        gap: 8px;
+    }
+    .search-property-bar input {
+        min-width: unset;
+        width: 100%; /* Make inputs full width when wrapped */
+        margin-bottom: 5px;
+    }
+    .search-property-bar .separator {
+        display: none; /* Hide separators when inputs stack */
+    }
+    .search-property-bar .search-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .featured-listing-card .card-content {
+        padding: 20px;
+    }
+    .featured-listing-card h3 {
+        font-size: 20px;
+    }
+    .property-card-small .card-content {
+        padding: 15px;
+    }
+    .property-card-small h3 {
+        font-size: 18px;
+    }
+    .overview-left, .overview-right {
+        padding: 20px;
+    }
+    .contact-agent-btn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .overview-grid {
+        grid-template-columns: 1fr; /* Stack overview items */
+    }
+    .ai-floating-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .website-container {
+        border-radius: 10px;
+    }
+    .hero-section {
+        height: 300px;
+    }
+    .hero-content h1 {
+        font-size: 36px;
+    }
+    .search-property-bar {
+        padding: 8px 10px;
+    }
+    .search-property-bar i {
+        font-size: 18px;
+    }
+    .search-property-bar input {
+        font-size: 14px;
+    }
+    .featured-listing-card img {
+        height: 180px;
+    }
+    .property-card-small img {
+        height: 120px;
+    }
+    .overview-main-card img {
+        height: 150px;
+    }
+    .overview-item-card img {
+        height: 80px;
+    }
+}
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    // --- Header Navigation Active State ---
+    const navItems = document.querySelectorAll('.main-nav .nav-item');
+    navItems.forEach(item => {
+        item.addEventListener('click', (event) => {
+            navItems.forEach(nav => nav.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+            console.log(`Navigated to: ${event.currentTarget.textContent}`);
+        });
+    });
+
+    // --- Header "View Details" Button ---
+    const headerViewDetailsBtn = document.querySelector('.main-header .view-details-btn');
+    if (headerViewDetailsBtn) {
+        headerViewDetailsBtn.addEventListener('click', () => {
+            alert('Viewing general details about HONG services!');
+            // In a real application, this might navigate to a general info page.
+        });
+    }
+
+    // --- Hero Section Search Button ---
+    const heroSearchBtn = document.querySelector('.search-property-bar .search-btn');
+    const searchInputs = document.querySelectorAll('.search-property-bar input[type="text"]');
+    if (heroSearchBtn) {
+        heroSearchBtn.addEventListener('click', () => {
+            const searchTerms = Array.from(searchInputs).map(input => input.value.trim()).filter(value => value !== '').join(', ');
+            if (searchTerms) {
+                alert(`Searching for properties with criteria: ${searchTerms}`);
+            } else {
+                alert('Please enter some search criteria!');
+            }
+            // In a real application, you'd trigger a property search API call or filter listings.
+        });
+    }
+
+    // --- Property Card "View Details" Buttons ---
+    const propertyViewDetailsBtns = document.querySelectorAll('.property-card-small .view-details-btn, .featured-listing-card .view-details-btn, .overview-item-card .view-details-btn');
+    propertyViewDetailsBtns.forEach(button => {
+        button.addEventListener('click', (event) => {
+            const card = event.currentTarget.closest('.property-card-small') || event.currentTarget.closest('.featured-listing-card') || event.currentTarget.closest('.overview-item-card');
+            const propertyTitle = card.querySelector('h3').textContent;
+            alert(`Viewing details for "${propertyTitle}"!`);
+            // In a real application, you'd navigate to a specific property detail page.
+        });
+    });
+
+    // --- Contact Agent Button ---
+    const contactAgentBtn = document.querySelector('.contact-agent-btn');
+    if (contactAgentBtn) {
+        contactAgentBtn.addEventListener('click', () => {
+            alert('Connecting you with an agent to discuss this property!');
+            // This might open a contact form or initiate a chat.
+        });
+    }
+
+    // --- Carousel Dots for New Properties Section ---
+    // This assumes the "New Properties" section might eventually become a carousel.
+    // For now, it just handles the active state of the dots.
+    const carouselDots = document.querySelectorAll('.new-properties-section .carousel-dots .dot');
+    carouselDots.forEach(dot => {
+        dot.addEventListener('click', (event) => {
+            carouselDots.forEach(d => d.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+            console.log('Carousel dot clicked.');
+            // Implement actual carousel scroll logic here if needed
+        });
+    });
+
+    // --- AI Floating Button ---
+    const aiButton = document.querySelector('.ai-floating-btn');
+    if (aiButton) {
+        aiButton.addEventListener('click', () => {
+            alert('HONG AI Assistant: How can I help you find your dream property today?');
+        });
+    }
+});
+</script>
